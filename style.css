@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+/* Pozicionálás */
+
+.profile-card {
+  width: 480px;
+  max-width: calc(100vw - 10px);
+  background-color: hsla(0, 0%, 100%, .5);
+  border-radius: 4px;
+  box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
+}
+
+body {
+  background:url('assets/hatter.jpg') no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'Rubik Distressed' cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:630px;
+}
+
+.head, .links {
+  text-align: center;
+}
+.head, .content {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.head, .about {
+  margin-bottom: 7%;
+}
+
+.content {
+  padding: 5% 7%;
+  border-top: 1px solid hsla(0, 0%, 30%, .8);
+}
+
+.about  {
+  text-align: justify;
+}
+.name-headline {
+  padding-top: 10px;
+   
+}
+
+/* Profile image */
+
+img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  transition: all 0.5s ease-in-out;
+  filter: grayscale(50%);
+  padding: 1px;
+  background-color: #667;
+}
+
+.profile-image {
+  margin-top: -60px;
+}
+
+img:hover {
+  transform: scale(1.1);
+  filter: grayscale(20%);
+}
+
+
+/* Contact links */
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+}
+
+/* Style */
+
+span {
+  color: rgba(51, 56, 59, 0.8);
+}
+.from {
+  font-size: 13px;
+  font-weight: bolder;
+}
+a {
+  color: rgba(51, 56, 59, 0.8);
+}
+h1 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 20px;
+  font-weight: bolder;
+  padding-bottom: 5px;
+}
+
+h2 {
+  letter-spacing: .5px;
+  font-size: 16px;
+  font-weight:400;
+  padding-bottom: 5px;
+}
+
+.Budapest {
+  font-weight:600;
+}
+
+.flag {
+  color: rgba(82, 11, 7, 0.65);
+}
+
+h3 {
+  padding-bottom: 13px;
+}
