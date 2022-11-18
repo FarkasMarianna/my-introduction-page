@@ -4,24 +4,23 @@
   box-sizing: border-box;
   font-size: 100%;
 }
-/* Pozicionálás */
 
 .profile-card {
   width: 480px;
-  max-width: calc(100vw - 10px);
+  max-width: calc(100vw - 20px);
   background-color: hsla(0, 0%, 100%, .5);
-  border-radius: 4px;
-  box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
+  border-radius: 5px;
+  box-shadow: hsla(0, 0%, 0%, .8) 0px 20px 10px;
 }
 
 body {
   background:url('assets/hatter.jpg') no-repeat center center fixed;
   background-size: cover;
-  font-family: 'Rubik Distressed' cursive;
   display: flex;
   justify-content: center;
   align-items: center;
-  height:630px;
+  height: 750px;
+  font-family: 'Rubik Distressed';
 }
 
 .head, .links {
@@ -33,41 +32,41 @@ body {
 }
 
 .head, .about {
-  margin-bottom: 7%;
+  margin-bottom: 1%;
 }
 
 .content {
   padding: 5% 7%;
-  border-top: 1px solid hsla(0, 0%, 30%, .8);
+  border-top: 1.5px solid hsla(0, 0%, 30%, .8);
 }
 
 .about  {
   text-align: justify;
 }
+
 .name-headline {
-  padding-top: 10px;
-   
+  padding-top: 5px;
 }
 
 /* Profile image */
 
 img {
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-  transition: all 0.5s ease-in-out;
-  filter: grayscale(50%);
-  padding: 1px;
-  background-color: #667;
+  width: 160px;
+  height: 180px;
+  border-radius: 15%;
+  transition: all 1s ease-in-out;
+  filter: grayscale(45%);
+  padding: 3px;
+  background-color: rgb(55, 24, 11);
 }
 
 .profile-image {
-  margin-top: -60px;
+  margin-top: -20px;
 }
 
 img:hover {
   transform: scale(1.1);
-  filter: grayscale(20%);
+  filter: grayscale(30%);
 }
 
 
@@ -84,32 +83,48 @@ li {
 /* Style */
 
 span {
-  color: rgba(51, 56, 59, 0.8);
+  color: rgba(3, 58, 16, 0.8);
 }
+
+.CodeBerry {
+  font-weight: 600;
+  color:rgb(12, 82, 58);
+}
+
+.CodeBerry:hover {
+  color:rgb(66, 239, 182);
+  font-family: Helvetica, sans-serif;
+  font-weight: 900;
+  font-size: 2em;
+  transform: scale(15);
+}
+
 .from {
-  font-size: 13px;
+  font-size: 15px;
   font-weight: bolder;
 }
 a {
-  color: rgba(51, 56, 59, 0.8);
+  color: rgba(49, 8, 8, 0.8);
+  text-decoration-line: none;
 }
 h1 {
   text-transform: uppercase;
   letter-spacing: 2px;
-  font-size: 20px;
-  font-weight: bolder;
-  padding-bottom: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  padding-bottom: 2px;
 }
 
 h2 {
   letter-spacing: .5px;
-  font-size: 16px;
-  font-weight:400;
+  font-size: 14px;
+  font-weight: 500;
   padding-bottom: 5px;
 }
 
 .Budapest {
-  font-weight:600;
+  font-weight: 500;
+  font-size: 16px;
 }
 
 .flag {
@@ -117,5 +132,5 @@ h2 {
 }
 
 h3 {
-  padding-bottom: 13px;
+  padding-bottom: 10px;
 }
